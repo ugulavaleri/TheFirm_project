@@ -1,0 +1,25 @@
+.testimonialsContainer {
+    padding: 80px 40px 100px 40px;
+}
+.testimonialsContainer h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.imageDiv {
+    display: flex;
+    align-items: center;
+    max-width: 656px;
+    margin: 0 auto;
+}
+.TestimonialsText {
+    max-width: 800px;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    margin: 40px auto 50px auto;
+    line-height: 31px;
+}
+.companyTitle {
+    text-align: center;
+    font-size: 22px;
+}

@@ -2,6 +2,7 @@ import "./App.css";
 import Reasons from "./components/mainSection/ReasonsPart";
 import Research from "./components/mainSection/ResearchPart";
 import Blogs from "./components/mainSection/blogs";
+import Testimonials from "./components/footerPart/testimonials";
 
 import Img1 from "./images/blogPic1.png";
 import Img2 from "./images/blogPic2.png";
@@ -43,6 +44,7 @@ function App() {
             <Reasons />
             <Research />
             <Blogs blogObj={blogsObject} />
+            <Testimonials />
         </>
     );
 }
