@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.midContainer {
+    background-color: #f2f2f2;
+    padding: 120px 40px 100px 40px;
+}
+.midSection {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.midSectionText h2 {
+    font-size: 44px;
+    margin-bottom: 30px;
+    color: #1e1e1e;
+}
+.midSectionText p {
+    font-size: 18px;
+    margin-bottom: 60px;
+    color: #1e1e1e;
+}
+.midSectionButtons {
+    max-width: 800px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.midSectionButtons button {
+    max-width: 140px;
+    height: 40px;
+    width: 100%;
+
+    font-size: 15px;
+    font-weight: 700;
+    color: #b0b0b0;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.midSectionButtons button:hover {
+    background-color: #faca10;
+    color: #fff;
+}
+
+.brandingPart {
+    max-width: 1200px;
+    width: 100%;
+    margin: 80px auto 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+    border-radius: 30px;
+    background-color: #fff;
+}
+.brandingPart div:first-child img {
+    border: 9px solid #fff;
+    border-radius: 25px;
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.15);
+}
+.brandingPart div:last-child {
+    max-width: 460px;
+    width: 100%;
+}
+.brandingPart div:last-child h5 {
+    font-size: 26px;
+    margin-bottom: 15px;
+    color: #1e1e1e;
+}
+.brandingPart div:last-child p {
+    color: #1e1e1e;
+    font-size: 18px;
+    line-height: 31.6px;
+    margin-bottom: 25px;
+}
+.brandingPart div:last-child button {
+    max-width: 145px;
+    width: 100%;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    background-color: #1e1e1e;
+
+    cursor: pointer;
+}
