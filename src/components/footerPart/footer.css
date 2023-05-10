@@ -47,3 +47,92 @@
     color: #1e1e1e;
     font-size: 18px;
 }
+.iconsDiv {
+    display: flex;
+    max-width: 300px;
+    width: 100%;
+    margin: 60px auto 0 auto;
+    justify-content: space-between;
+}
+.lastText {
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+} /**/
+.formBox {
+    position: absolute;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    padding: 60px 70px;
+    top: -170%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    border-radius: 15px;
+}
+.formBox h1 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.formBox form {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    width: 800px;
+}
+.formBox label {
+    color: #a5a5a5;
+    margin-left: 8px;
+    font-size: 15px;
+}
+
+.rightInputs {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+.leftInputs {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+.formBox input {
+    width: 350px;
+    height: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    padding-left: 8px;
+    color: #1e1e1e;
+    font-size: 18px;
+    font-weight: 700;
+}
+.formBox input::placeholder {
+    color: #1e1e1e;
+    font-size: 18px;
+    font-weight: 700;
+}
+.inputBox {
+    display: flex;
+    flex-direction: column;
+}
+.formButtonBox {
+    max-width: 140px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+.formButtonBox button {
+    max-width: 140px;
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;
+
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #faca10;
+
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
