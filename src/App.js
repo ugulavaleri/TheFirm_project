@@ -3,6 +3,7 @@ import Reasons from "./components/mainSection/ReasonsPart";
 import Research from "./components/mainSection/ResearchPart";
 import Blogs from "./components/mainSection/blogs";
 import Testimonials from "./components/footerPart/testimonials";
+import MapAndFooter from "./components/footerPart/footerLastPart";
 
 import Img1 from "./images/blogPic1.png";
 import Img2 from "./images/blogPic2.png";
@@ -45,6 +46,7 @@ function App() {
             <Research />
             <Blogs blogObj={blogsObject} />
             <Testimonials />
+            <MapAndFooter />
         </>
     );
 }
